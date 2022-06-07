@@ -1,0 +1,197 @@
+@media (max-width : 480px){
+    .nav{
+        padding-right: 2%;
+        padding-left: 2%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .nav .mainMenu{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+        align-self: flex-end;
+        background-image: url('/images/icon-hamburger.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .nav .menu-active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        min-width: 100px;
+        height: 200px;
+        padding: 15px 5px;
+        background-color: hsl(168deg 25% 61% / 93%);
+    }
+
+    /*.line1, .line2, .line3{
+        height: 1px;
+        width: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: var(--white) ;
+    }*/
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about{
+        padding: 12% 8%;
+        text-align: center;
+        /*font-size: 1em;*/
+    }
+
+    .brand-image{
+        background-image: url('/images/mobile/image-transform.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 15rem;
+        grid-row-start: 1;
+    }
+
+    .stand-out-image{
+        background-image: url('/images/mobile/image-stand-out.jpg');
+        background-size: cover;
+        height: 15rem;
+    }
+
+    p{
+        font-size:var(--font-size-small);
+    }
+
+    .graphic-design{
+        background: url('/images/mobile/image-graphic-design.jpg');
+        background-size: cover;
+        background-position: top;
+    }
+    .graphic-design-text, .photography-text{
+        margin-top: 90%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 12%;
+    }
+    .graphic-design-text p, .photography-text p{
+        margin-top: 10%;
+    }
+    .photography{
+        background: url('/images/mobile/image-photography.jpg');
+        background-size: cover;
+        background-position: top;
+    }
+    .testimonials{
+        padding-top: 5%;
+        height: auto;
+    }
+    .testimonials p{
+        margin-top: 8%;
+        margin-bottom: 2%;
+        font-size: var(--font-size-small);
+    }
+    .testimonials h2{
+        font-size: var(--font-size-heading-small);
+        margin-top: 10%;
+        margin-bottom: 2%;
+    }
+    .testimonials h4{
+        margin-top: 8%;
+        margin-bottom: 2%;
+    }
+    .testimonials h6{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 6% 3%;
+        text-align: center;
+    }
+
+    /*Gallery*************************/
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /*height: 55vh;*/
+    }
+
+    .milkbottles{
+        background: url('/images/mobile/image-gallery-milkbottles.jpg');
+        width: 100%;
+        background-size: cover;
+        
+    }
+    .orange{
+        background: url('/images/mobile/image-gallery-orange.jpg');
+        width: 100%;
+        background-size: cover;
+        
+    }
+    .cone{
+        background: url('/images/mobile/image-gallery-cone.jpg');
+        background-size: cover;
+        width: 100%;
+    }
+    .sugarcubes{
+        background: url('/images/mobile/image-gallery-sugar-cubes.jpg');
+        background-size: cover;
+        width: 100%;
+    }
+
+    .footer-nav{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .footer-nav ul{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+        /*margin-left: 2%;
+        margin-right: 2%;*/
+        font-size: var(--font-size-small);
+        justify-self: center;
+    }
+    .social-icon-container{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 50%;
+        justify-self: center;
+    }
+    .logo{
+        width: 30%;
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+    .hero{
+        background:  url('/images/mobile/image-header.jpg');
+        background-size: cover;
+        background-position: center;
+        font-size: var(--font-size-heading-small);
+    }
+    .heading{
+        font-size: 2.5em;
+        margin-top: 20%;
+        text-transform: uppercase;
+    }
+    .arrow-down{
+        margin-top: 8%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        width: 20px;
+    }
+}
